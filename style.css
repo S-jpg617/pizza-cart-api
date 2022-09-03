@@ -1,0 +1,131 @@
+.header {
+    padding: 1em;
+    margin: 1em;
+    background-color: rgb(9, 9, 8);
+    border-radius: 0.5em;
+    text-align: center
+}
+
+h1 {
+    text-align: center;
+}
+
+.cartbox {
+    padding: 1em;
+    margin: 1em;
+    /*width: max-content;*/
+    border-radius: 0.5em;
+    align-self: center;
+    align-content: center;
+    text-align: center;
+}
+
+.cart {
+    /*border: 1px solid;*/
+    padding: 1em;
+    margin: 1em;
+    /*width: fit-content;*/
+    border-radius: 0.5em;
+    display: flex;
+    position: relative;
+    text-align: center;
+}
+
+@media (min-width: 680px) {
+    .cart {
+        display: flex;
+    }
+}
+
+body {
+    background-color: rgb(96, 15, 69);
+}
+
+.input {
+    margin: 1em;
+}
+
+table {
+    border-collapse: collapse;
+    /*width: auto;
+    align-content: center;*/
+}
+
+td {
+    text-align: center;
+    vertical-align: bottom;
+    /* height: 50px; */
+}
+
+th,
+td {
+    padding: 15px;
+    text-align: left;
+    border: 1px solid rgb(98, 18, 18);
+
+}
+
+.message {
+    padding: 1em;
+    /* color: grey; */
+    font-weight: bold;
+    /*background-color: lightgrey;*/
+}
+
+.input {
+    padding: 1em;
+}
+
+.btn {
+    padding: 1em 0em 1em 0em;
+    width: 5em;
+    background-color: rgba(182, 39, 120, 0.996);
+    color: rgb(7, 7, 7);
+    font-weight: bold;
+    border: 0;
+    cursor: pointer;
+    border-radius: 0.25em;
+}
+
+.btn:hover {
+    background-color: rgb(228, 15, 196);
+}
+
+.Pizzas {
+    padding: 1em;
+    margin: 1em;
+    /*width: max-content;*/
+    border-radius: 0.5em;
+    align-self: center;
+    align-content: center;
+    background-color: rgb(247, 16, 208);
+    text-align: center;
+}
+
+
+.deals {
+    align-self: center;
+    align-content: center;
+    padding: 1em;
+    margin: 1em;
+    /*width: max-content;*/
+    border-radius: 0.5em;
+    background-color: rgb(18, 21, 21);
+    text-align: center;
+}
+
+.footer {
+    width: 95%;
+    /*border: 1px solid;*/
+    padding: 1em;
+    margin: 1em;
+    margin-right: 1em;
+    border-radius: 0.5em;
+    background-color: lightgoldenrodyellow;
+    color: black;
+    display: inline-flex;
+}
+
+.address {
+    margin-left: 50%;
+}
